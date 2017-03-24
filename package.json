@@ -1,0 +1,27 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for basic web projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignism/webpack-boilerplate.git"
+  },
+  "author": "Mark Brand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ignism/webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ignism/webpack-boilerplate#readme",
+  "devDependencies": {
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.1",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.0",
+    "webpack": "^2.3.1"
+  }
+}
