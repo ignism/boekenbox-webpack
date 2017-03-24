@@ -29,8 +29,11 @@ const config = {
         }
       }]
     }, {
-      test: /\.scss$|\.css$/,
+      test: /\.(scss|css)$/,
       loader: extractCSS.extract(['css-loader', 'sass-loader'])
+    }, {
+      test: /\.(png|jpg|gif|svg)$/,
+      loader: 'file-loader?name=[path]/[name].[ext]',
     }]
   },
   plugins: [
@@ -39,4 +42,4 @@ const config = {
   ]
 }
 
-module.exports = config;
+module.exports = config
