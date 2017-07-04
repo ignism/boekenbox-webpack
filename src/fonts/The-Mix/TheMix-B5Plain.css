@@ -1,0 +1,12 @@
+/* Webfont: TheMix-B5Plain */@font-face {
+    font-family: 'TheMixB';
+    src: url('TheMix-B5Plain.eot'); /* IE9 Compat Modes */
+    src: url('TheMix-B5Plain.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('TheMix-B5Plain.woff') format('woff'), /* Modern Browsers */
+         url('TheMix-B5Plain.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('TheMix-B5Plain.svg#TheMix-B5Plain') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

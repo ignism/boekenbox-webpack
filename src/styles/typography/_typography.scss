@@ -1,0 +1,32 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $color__text-main;
+	font-family: $font__main;
+	@include font-size(1);
+	line-height: $font__line-height-body;
+}
+
+.text {
+	&--centered {
+		text-align: center;
+	}
+}
+
+@import "headings";
+
+@import "copy";
+
+@media (max-width: 48rem) {
+	body,
+	button,
+	input,
+	select,
+	optgroup,
+	textarea {
+		font-size: 13px;
+	}
+}

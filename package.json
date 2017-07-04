@@ -4,7 +4,7 @@
   "description": "Boilerplate for basic web projects.",
   "main": "index.js",
   "scripts": {
-    "build": "rm -r dist; webpack -p"
+    "build": "rm -r dist; webpack -p; cp -r dist/assets ~/Sites/sites/boekenbox/www/site/wp-content/themes/boekenbox"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,14 @@
     "style-loader": "^0.16.0",
     "url-loader": "^0.5.8",
     "webpack": "^2.3.1"
+  },
+  "dependencies": {
+    "aos": "^2.1.1",
+    "flexboxgrid": "^6.3.1",
+    "flexboxgrid-helpers": "^1.1.2",
+    "flexboxgrid-sass": "^8.0.5",
+    "jquery": "^3.2.1",
+    "jquery-lazyload": "^1.9.7",
+    "slick-carousel": "^1.6.0"
   }
 }

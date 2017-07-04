@@ -1,0 +1,227 @@
+body.home {
+  background: url(../images/green-gradient.png);
+  background-size: contain;
+
+  header {
+    padding: 2em 0;
+    background: #FBCA6C;
+    color: $color__text-highlight;
+  }
+
+  .header-arch {
+    height: 146px;
+    width: 100vw;
+  }
+
+  .jumbo {
+    padding-bottom: 0;
+  }
+
+  .content.block {
+    position: relative;
+    background: $color__background-green;
+    padding: 1.5em 0 3em 0;
+    margin: 80px 0;
+
+
+    h2 {
+      color: $color__text-highlight;
+    }
+  }
+}
+
+// xs
+#dotted-line-1 {
+  position: relative;
+  top: -10px;
+  width: 50%;
+}
+
+#dotted-line-2 {
+  position: absolute;
+  bottom: -140px;
+  height: 160px;
+  left: 40px;
+}
+
+#dotted-line-3 {
+  position: absolute;
+  height: 140px;
+  bottom: -150px;
+  left: 80px;
+}
+
+#dotted-line-4 {
+  position: absolute;
+  width: 120px;
+  bottom: -105px;
+  right: 30px;
+}
+
+.block-header {
+  margin-top: 1em;
+  width: 80%;
+}
+
+.block--number {
+  position: absolute;
+  width: 60px;
+  left: -20px;
+  top: -30px;
+}
+
+.block--animation {
+  min-height: 80px;
+}
+
+#block-accent-1 {
+  position: absolute;
+  right: 20px;
+  top: -20px;
+  width: 60px;
+}
+
+#block-accent-3 {
+  position: absolute;
+  left: 25%;
+  margin-left: -30px;
+  bottom: -30px;
+  width: 60px;
+}
+
+#animation-label {
+  position: absolute;
+  width: 80%;
+  left: 40px;
+  bottom: -20px;
+  max-width: 240px;
+}
+
+#animation-books {
+  position: absolute;
+}
+
+#books {
+  position: absolute;
+  width: 50%;
+  right: -10px;
+  bottom: -20px;
+  max-width: 200px;
+}
+
+#animation-box {
+  position: absolute;
+  bottom: -40px;
+  max-width: 120%;
+  width: 120%;
+}
+
+@media (min-width: 48em) { // sm
+  #dotted-line-1 {
+    position: relative;
+    top: -10px;
+    width: 296px;
+  }
+
+  #dotted-line-2 {
+    position: absolute; left: 180px; bottom: -150px; width: 200px;
+  }
+
+  #dotted-line-3 {
+    position: absolute; right: 300px; bottom: -150px; width: 100px;
+  }
+
+  #dotted-line-4 {
+    position: absolute; left: 360px; bottom: -140px; width: 200px;
+  }
+
+  .block-header {
+    margin-top: 1em;
+    width: 100%;
+  }
+
+  .col-sm-offset-0 {
+    margin-left: 0;
+  }
+
+  .pushdown {
+    padding-top: 16%;
+  }
+
+  .block--number {
+    width: 120px;
+    left: -60px;
+    top: -60px;
+  }
+
+  #block-accent-1 {
+    position: absolute;
+    right: 50px;
+    top: -50px;
+    width: 100px;
+  }
+
+  #block-accent-3 {
+    left: 50%;
+    margin-left: -60px;
+    bottom: -60px;
+    width: 120px;
+  }
+
+  #animation-label {
+    right: -50px;
+    bottom: 0;
+    width: 65%;
+    max-width: 100%;
+  }
+
+  #animation-books {
+    left: -40px;
+    top: 80px;
+    width: 55%;
+  }
+
+  #books {
+    position: absolute;
+    right: 20px;
+    max-width: 100%;
+  }
+
+  #animation-box {
+    right: -140px;
+    bottom: 40px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 62em) { // md
+  #animation-label {
+    right: -40px;
+    bottom: -80px;
+    width: 55%;
+  }
+
+  #animation-books {
+    left: 20px;
+    top: 40px;
+    width: 45%;
+  }
+
+  #books {
+    right: 80px;
+    width: 45%;
+    bottom: -60px;
+  }
+
+  #animation-box {
+    right: -200px;
+    bottom: -40px;
+    width: 90%;
+  }
+}
+
+@media (min-width: 75em) { // lg
+  #animation-label {
+
+  }
+}

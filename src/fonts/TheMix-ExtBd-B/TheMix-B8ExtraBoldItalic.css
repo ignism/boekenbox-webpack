@@ -1,0 +1,12 @@
+/* Webfont: TheMix-B8ExtraBoldItalic */@font-face {
+    font-family: 'TheMixExtBdB';
+    src: url('TheMix-B8ExtraBoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('TheMix-B8ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('TheMix-B8ExtraBoldItalic.woff') format('woff'), /* Modern Browsers */
+         url('TheMix-B8ExtraBoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('TheMix-B8ExtraBoldItalic.svg#TheMix-B8ExtraBoldItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
